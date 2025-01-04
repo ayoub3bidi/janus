@@ -18,7 +18,7 @@ Janus is a powerful documentation website boilerplate that combines the robust f
 
 - **📝 Docusaurus Foundation**: Built on top of Docusaurus, providing a stable and feature-rich documentation framework
 - **🎨 Tailwind CSS Integration**: Modern, responsive styling with the utility-first CSS framework
-- **🔍 Search Functionality**: Built-in search capabilities to help users find content quickly
+- **🔍 Search Functionality**: Offline/local search capabilities to help users find content quickly
 - **🌐 Internationalization**: Full i18n support with easy translation management
 - **📱 Mobile Responsive**: Looks great on devices of all sizes
 - **🐳 Docker Support**: Easy development and deployment with Docker
@@ -80,11 +80,8 @@ Janus comes with built-in support for multiple languages. To add translations:
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📝 License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - Built with [Docusaurus](https://docusaurus.io/)
 - Styled with [Tailwind CSS](https://tailwindcss.com/)
+- Offline/local search with [easyops-cn/docusaurus-search-local](https://github.com/easyops-cn/docusaurus-search-local)
