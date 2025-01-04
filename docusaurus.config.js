@@ -39,6 +39,17 @@ const config = {
         removeDefaultStemmer: true,
       },
     ],
+    async function tailwindPlugin(context, options) {
+      return {
+        name: 'docusaurus-tailwindcss',
+        configurePostCss(postcssOptions) {
+          // Add Tailwind CSS and Autoprefixer to PostCSS plugins
+          postcssOptions.plugins.push(require('tailwindcss'));
+          postcssOptions.plugins.push(require('autoprefixer'));
+          return postcssOptions;
+        },
+      };
+    },
   ],
 
   onBrokenLinks: 'throw',

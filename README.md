@@ -12,6 +12,7 @@
 ## Features
 * Search Bar
 * Translation
+* Tailwind CSS styling
 
 ## Commands
 
