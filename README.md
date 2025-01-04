@@ -1,7 +1,7 @@
 # Janus
 
 <p align="center">
-    <img src="./janus.png"/> <br/>
+    <img src="./static/img/janus.png"/> <br/>
     A simple documentation boilerplate.
 </p>
 
