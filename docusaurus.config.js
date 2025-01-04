@@ -49,7 +49,15 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      fr: {
+        label: 'Français',
+      }
+    }
   },
 
   presets: [
@@ -107,7 +115,11 @@ const config = {
           {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/ayoub3bidi/janus',
-            label: 'GitHub',
+            label: 'Give us a Star on GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],
