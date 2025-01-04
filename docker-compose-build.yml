@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  website_ui:
+    restart: always
+    image: website_ui:latest
+    build: .
